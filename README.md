@@ -15,7 +15,7 @@ python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-Optional but recommended model/data setup:
+Required model/data setup (strict pipeline dependencies):
 
 ```bash
 python -m spacy download en_core_web_sm
